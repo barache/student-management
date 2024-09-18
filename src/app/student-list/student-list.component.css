@@ -1,0 +1,16 @@
+/* src/app/student-list/student-list.component.css */
+.student-list {
+  list-style-type: none;
+  padding: 0;
+  width: 600px;
+  margin: auto;
+}
+
+.student-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-list li:nth-child(even) {
+  background-color: #f9f9f9;
+}

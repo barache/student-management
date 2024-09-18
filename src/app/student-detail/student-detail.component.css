@@ -1,0 +1,15 @@
+/* src/app/student-detail/student-detail.component.css */
+.student-detail {
+  width: 300px;
+  margin: auto;
+}
+
+.student-detail label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.student-detail input {
+  padding: 5px;
+  width: 100%;
+}

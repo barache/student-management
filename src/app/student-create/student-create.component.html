@@ -1,0 +1,22 @@
+<h2>Add New Student</h2>
+<form (ngSubmit)="addStudent()" class="student-form">
+  <label>
+    Firstname:
+    <input [(ngModel)]="newStudent.firstname" name="firstname" required />
+  </label>
+  <label>
+    Lastname:
+    <input [(ngModel)]="newStudent.lastname" name="lastname" required />
+  </label>
+  <label>
+    Phone:
+    <input [(ngModel)]="newStudent.phone" name="phone" type="number" required />
+  </label>
+  <label>
+    Email:
+    <input [(ngModel)]="newStudent.email" name="email" type="email" required />
+  </label>
+  <button type="submit">Add Student</button>
+</form>
+
+
